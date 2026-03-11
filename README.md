@@ -1,9 +1,10 @@
 # 📟 ESP32 Web Oscilloscope
 
-![Platform](https://img.shields.io/badge/platform-ESP32-blue)
-![Language](https://img.shields.io/badge/language-C%2B%2B-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-Completed-blue)
+[![Platform](https://img.shields.io/badge/platform-ESP32-blue)](https://www.espressif.com/en/products/socs/esp32)
+[![Language](https://img.shields.io/badge/language-C++-orange)](https://isocpp.org/)
+[![Docs](https://img.shields.io/badge/docs-Wiki-blue)](https://github.com/kumareshan3010/esp32-web-oscilloscope/wiki)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Status](https://img.shields.io/badge/status-Completed-brightgreen)]()
 
 > A real-time web-based oscilloscope built on ESP32 WROOM-32, accessible from any browser on your phone or PC — no app, no drivers, no external libraries.
 
