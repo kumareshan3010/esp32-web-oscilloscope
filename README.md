@@ -20,7 +20,7 @@ Data is streamed using **Server-Sent Events (SSE)** over the built-in `WebServer
 
 | Feature | Details |
 |---|---|
-| **Real-time Waveform** | Live canvas plot, 500 samples/sec, 600-point circular buffer |
+| **Real-time Waveform** | Live canvas plot, 10000 samples/sec, 600-point circular buffer |
 | **Input Range** | ±20V via resistor attenuator (native ADC: 0–3.3V) |
 | **Frequency Display** | Zero-crossing detection, live Hz readout |
 | **Vpp / Vmin / Vmax** | Peak-to-peak and absolute min/max in real volts |
