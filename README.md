@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/badge/platform-ESP32-blue)
 ![Language](https://img.shields.io/badge/language-C%2B%2B-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-Active-brightgreen)
+![Status](https://img.shields.io/badge/status-Completed-blue)
 
 > A real-time web-based oscilloscope built on ESP32 WROOM-32, accessible from any browser on your phone or PC — no app, no drivers, no external libraries.
 
