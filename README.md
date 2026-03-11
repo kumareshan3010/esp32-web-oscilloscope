@@ -22,6 +22,8 @@ Detailed explanations and design documentation are available in the Wiki:
 
 👉 https://github.com/kumareshan3010/esp32-web-oscilloscope/wiki
 
+--
+
 ## ✨ Features
 
 | Feature | Details |
