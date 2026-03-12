@@ -157,8 +157,8 @@ Vin = (Vadc - Vbias) × (R1+R2)/R2
 ```
 loop()
   ├── server.handleClient()     ← serves HTML page on request
-  ├── Sample ADC at 10 kHz       ← precise micros() timing
-  ├── Batch 10 samples          ← reduces WiFi overhead
+  ├── Sample ADC at 10 kHz      ← precise micros() timing
+  ├── Batch 100 samples         ← reduces WiFi overhead
   └── Send via SSE              ← "event: adc\ndata: v1,v2,...\n\n"
 ```
 
