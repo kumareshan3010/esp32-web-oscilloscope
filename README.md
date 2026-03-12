@@ -157,7 +157,7 @@ Vin = (Vadc - Vbias) × (R1+R2)/R2
 ```
 loop()
   ├── server.handleClient()     ← serves HTML page on request
-  ├── Sample ADC at 10000Hz       ← precise micros() timing
+  ├── Sample ADC at 10 kHz       ← precise micros() timing
   ├── Batch 10 samples          ← reduces WiFi overhead
   └── Send via SSE              ← "event: adc\ndata: v1,v2,...\n\n"
 ```
@@ -180,7 +180,7 @@ const vin  = (vadc - 1.65) * 13.195;     // Real input voltage
 
 | Parameter | Value |
 |---|---|
-| Sampling Rate | 10000 Hz |
+| Sampling Rate | 10 kHz |
 | Buffer Size | 600 samples |
 | Time Window | 1.2 seconds |
 | ADC Resolution | 12-bit (0–4095) |
